@@ -4,5 +4,8 @@ source $OPENSHIFT_CARTRIDGE_SDK_BASH
 echo "Install (Echo)"
 client_result "Install (Client Result)"
 cart_props "cart_data_var=test"
+<<<<<<< HEAD
 cart_props "env_var=test2"
 client_result "Set Env Vars"
+=======
+>>>>>>> a959da4a9115d3e4a4ee0fe054b1cea9c7df5c73
