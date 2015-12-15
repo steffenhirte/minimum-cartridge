@@ -10,7 +10,8 @@ Version: '1.0'
 Vendor: steffenhirte
 Categories:
   - embedded
-Website: github.com/steffenhirte/minimum-cartdrige
+Website: github.com/steffenhirte/minimum-cartridge
+Source-Url: https://github.com/steffenhirte/minimum-cartridge.git
 Cart-Data:
 - Key: env_var
   Type: environment
