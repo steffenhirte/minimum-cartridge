@@ -19,6 +19,9 @@ Cart-Data:
 - Key: cart_data_var
   Type: cart_data
   Description: "Cart Data"
+- Key: connection_url
+  Type: cart_data
+  Description: my connection URL
 Provides:
   - nodejs
 Publishes:

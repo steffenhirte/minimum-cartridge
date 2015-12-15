@@ -6,4 +6,7 @@ client_result "Install (Client Result)"
 cart_props "cart_data_var=test"
 
 cart_props "env_var=test2"
+typeset -F
 client_result "Set Env Vars"
+
+cart_props "connection_url=http://www.google.de"
