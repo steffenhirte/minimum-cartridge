@@ -12,9 +12,12 @@ Categories:
   - embedded
 Website: github.com/steffenhirte/maintenance-cartdrige
 Cart-Data:
-  - Key: OPENSHIFT_...
+  - Key: env_var
     Type: environment
     Description: "How environment variable should be used"
+  - Key: cart_data_var
+    Type: cart_data
+    Description: "Cart Data"
 Provides:
   - nodejs
 Publishes:
