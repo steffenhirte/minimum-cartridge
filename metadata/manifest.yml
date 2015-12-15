@@ -1,16 +1,16 @@
-Name: maintenance
-Cartridge-Short-Name: maintenance
+Name: minimum
+Cartridge-Short-Name: minimum
 Cartridge-Version: '0.1.0'
 Compatible-Versions:
   - '0.1.0'
 Cartridge-Vendor: steffenhirte
-Display-Name: Maintenance
+Display-Name: MinimumCartridge
 Description: "Description"
 Version: '1.0'
 Vendor: steffenhirte
 Categories:
   - embedded
-Website: github.com/steffenhirte/maintenance-cartdrige
+Website: github.com/steffenhirte/minimum-cartdrige
 Cart-Data:
   - Key: env_var
     Type: environment
