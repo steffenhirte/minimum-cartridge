@@ -1,0 +1,102 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+function update-configuration() {
+    echo "Update-Configuration (Echo)"
+    client_result "Update-Configuration (Client Result)"
+}
+
+function pre-build() {
+    echo "Pre-Build (Echo)"
+    client_result "Pre-Build (Client Result)"
+}
+
+function build() {
+    echo "Build (Echo)"
+    client_result "Build (Client Result)"
+}
+
+function deploy() {
+    echo "Deploy (Echo)"
+    client_result "Obtaining Status (Client Result)"
+}
+
+function post-deploy() {
+    echo "Post-Deploy (Echo)"
+    client_result "Post-Deploy (Client Result)"
+}
+
+function start() {
+    echo "Start (Echo)"
+    client_result "Start (Client Result)"
+}
+
+function status() {
+    echo "Status (Echo)"
+    client_result "Status (Client Result)"
+}
+
+function reload() {
+    echo "Reload (Echo)"
+    client_result "Reload (Client Result)"
+}
+
+function restart() {
+    echo "Restart (Echo)"
+    client_result "Restart (Client Result)"
+}
+
+function threaddump() {
+    echo "Threaddump (Echo)"
+    client_result "Threaddump (Client Result)"
+}
+
+function tidy() {
+    echo "Tidy (Echo)"
+    client_result "Tidy (Client Result)"
+}
+
+function stop() {
+    echo "Stop (Echo)"
+    client_result "Stop (Client Result)"
+}
+
+function pre-snapshot() {
+    echo "Pre-Snapshot (Echo)"
+    client_result "Pre-Snapshot (Client Result)"
+}
+
+function post-snapshot() {
+    echo "Post-Snapshot (Echo)"
+    client_result "Post-Snapshot (Client Result)"
+}
+
+function pre-restore() {
+    echo "Pre-Restore (Echo)"
+    client_result "Pre-Restore (Client Result)"
+}
+
+function post-restore() {
+    echo "Post-Restore (Echo)"
+    client_result "Post-Restore (Client Result)"
+}
+
+case "$1" in
+  update-configuration) update-configuration ;;
+  pre-build)            pre-build ;;
+  build)                build ;;
+  deploy)               deploy ;;
+  post-deploy)          post-deploy ;;
+  start)                start ;;
+  status)               status ;;
+  reload)               reload ;;
+  restart)              restart ;;
+  threaddump)           threaddump ;;
+  tidy)                 tidy ;;
+  stop)                 stop ;;
+  pre-snapshot)         pre-snapshot ;;
+  post-snapshot)        post-snapshot ;;
+  pre-restore)          pre-restore ;;
+  post-restore)         post-restore ;;
+  *)                    exit 0
+esac

@@ -1,0 +1,5 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+echo "Post Install (Echo)"
+client_result "Post Install (Client Result)"

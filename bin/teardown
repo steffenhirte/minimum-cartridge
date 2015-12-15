@@ -1,0 +1,5 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+echo "Teardown (Echo)"
+client_result "Teardown (Client Result)"

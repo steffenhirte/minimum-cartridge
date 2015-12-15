@@ -1,0 +1,5 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+echo "Setup (Echo)"
+client_result "Setup (Client Result)"

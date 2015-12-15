@@ -1,0 +1,40 @@
+Name: maintenance
+Cartridge-Short-Name: maintenance
+Cartridge-Version: '0.1.0'
+Compatible-Versions:
+  - '0.1.0'
+Cartridge-Vendor: steffenhirte
+Display-Name: Maintenance
+Description: "Description"
+Version: '1.0'
+Vendor: steffenhirte
+Categories:
+  - embedded
+Source-Url: git://github.com/steffenhirte/maintenance-cartridge.git
+Website: github.com/steffenhirte/maintenance-cartdrige
+Cart-Data:
+  - Key: OPENSHIFT_...
+    Type: environment
+    Description: "How environment variable should be used"
+Provides:
+  - nodejs
+Publishes:
+Subscribes:
+Scaling:
+  Min: 1
+  Max: -1
+Group-Overrides:
+  - components:
+    - web_proxy
+Install-Build-Required: false
+Endpoints:
+  - Private-IP-Name:   IP
+    Private-Port-Name: PORT
+    Private-Port:      8080
+    Public-Port-Name:  PROXY_PORT
+    Mappings:
+      - Frontend:      ""
+        Backend:       ""
+        Options:       { websocket: false }
+Additional-Control-Actions:
+  - threaddump
