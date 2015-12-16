@@ -3,10 +3,11 @@ source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
 echo "Install (Echo)"
 client_result "Install (Client Result)"
+
 cart_props "cart_data_var=test"
-
 cart_props "env_var=test2"
-typeset -F
-client_result "Set Env Vars"
 
-cart_props "connection_url=http://www.google.de"
+cart_props "connection_url=http://www.google.com"
+cart_props "username=user"
+cart_props "password=12345"
+cart_props "database_name=db1"

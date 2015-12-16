@@ -22,6 +22,15 @@ Cart-Data:
 - Key: connection_url
   Type: cart_data
   Description: my connection URL
+- Key: username
+  Type: cart_data
+  Description: My user name
+- Key: password
+  Type: cart_data
+  Description: My password
+- Key: database_name
+  Type: cart_data
+  Description: My Database name
 Provides:
   - nodejs
 Publishes:
