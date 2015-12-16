@@ -9,6 +9,7 @@ Description: "Description"
 Version: '1.0'
 Vendor: steffenhirte
 Categories:
+  - database
   - embedded
 Website: github.com/steffenhirte/minimum-cartridge
 Source-Url: https://github.com/steffenhirte/minimum-cartridge.git
